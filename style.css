@@ -13,7 +13,7 @@
 
 
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
 	
 	.logo {
 		float: right;
@@ -360,9 +360,9 @@
 		font-style: italic;
 	}
 	
+
+
 }
-
-
 
 
 
@@ -370,7 +370,7 @@
 	
 	.logo {
 		float: right;
-		width: 200px;
+		width: 150px;
 		margin-top: 15px;
 		margin-right: 10px;
 	}
@@ -384,7 +384,7 @@
 		display: inline-block;
 		padding: 15px 0 0 30px;
 		cursor: pointer;
-		font-size: 3rem;
+		font-size: 2rem;
 		color: rgb(33, 109, 172);
 		text-decoration: none;
 		transition: 0.5s;

@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
 
 
 
@@ -817,9 +822,13 @@
 	
 	.logo {
 		float: right;
-		width: 250px;
+		width: 200px;
 		margin-top: 15px;
 		margin-right: 10px;
+	}
+	
+	.logo:hover {
+		width: 175px;
 	}
 	
 	
@@ -901,6 +910,10 @@
 		margin-right: 10px;
 	}
 	
+	.logo:hover {
+		width: 175px;
+	}
+	
 	
 	.imageContainer {
 		background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("pictures/pexels-pixabay-159711.jpg");
@@ -974,6 +987,10 @@
 		width: 250px;
 		margin-top: 15px;
 		margin-right: 10px;
+	}
+	
+	.logo:hover {
+		width: 225px;
 	}
 	
 	

@@ -370,7 +370,7 @@
 	
 	.logo {
 		float: right;
-		width: 150px;
+		width: 200px;
 		margin-top: 15px;
 		margin-right: 10px;
 	}
@@ -384,7 +384,7 @@
 		display: inline-block;
 		padding: 15px 0 0 30px;
 		cursor: pointer;
-		font-size: 2rem;
+		font-size: 3rem;
 		color: rgb(33, 109, 172);
 		text-decoration: none;
 		transition: 0.5s;
